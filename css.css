@@ -1,0 +1,26 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	/*border: 1px solid red;*/
+	font-family: sans-serif;
+}
+
+#bg{
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #222;
+	z-index: -99;
+}
+
+.botao{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	background-color: #0c5;
+	margin-left: 15px;
+	margin-top: 15px;
+}
